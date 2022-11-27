@@ -22,6 +22,24 @@ class MyApp extends StatelessWidget {
           child: const Report(),
         ),
       ),
+      theme: ThemeData(
+  textTheme: const TextTheme(
+    bodyText1: TextStyle(
+      fontSize: 20, 
+      color: Colors.white
+    ),
+    headline1: TextStyle(
+      fontSize: 72,
+      fontWeight: FontWeight.w900,
+      color: Colors.white,
+    ),
+    caption: TextStyle(
+      fontSize: 18,
+      fontStyle: FontStyle.italic,
+      color: Colors.yellow,
+    ),
+  )
+)
     );
   }
 }
